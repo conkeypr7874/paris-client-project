@@ -1,0 +1,40 @@
+header{
+    background-image: url(images/wood.jpg);
+}
+h2{
+    font-family: 'DM Serif Display', serif;
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    font-family: 'DM Serif Display', serif;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    z-index: 0;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+footer{
+    background-color: #E68D7A;
+    color: white;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.social{
+    width: 50px;
+    display: block;
+    display: inline-flex;
+}
+img{
+    max-width: 100%;
+}
