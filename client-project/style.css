@@ -30,13 +30,15 @@ footer{
     background-color: #E68D7A;
     color: white;
     text-align: center;
+    padding: .5rem;
+    margin-top: 1.5rem;
 }
 .center{
     text-align: center;
 }
-.social {
-    width: 30px;
-    display: inline-flex;
+.social img{
+    height: 30px;
+    padding: .25rem;
 }
 img{
     max-width: 100%;
@@ -77,8 +79,9 @@ nav a:hover {
 .greenbox{
     background-color: #85ae87;
     border: #2a6a38 solid;
-    padding: 1.5rem;
+    padding: 1rem;
     color: white;
+    margin-bottom: 1.5rem;
 }
 .shop {
     display: flex;
@@ -169,11 +172,11 @@ input[type="submit"]:hover {
 }
 .product1:hover{
     color: white;
-    background-color: #E68D7A;
+    background-color: #85ae87
 }
 .product2:hover{
     color: white;
-    background-color: #E68D7A;
+    background-color: #85ae87;
 }
 @media (min-width: 1000px) {
     .about h2{
@@ -203,5 +206,8 @@ input[type="submit"]:hover {
         max-width: 500px; 
         margin: 0 20px;
     }
-
+    .social img{
+        height: 50px;
+        padding: .5rem;
+    }
 }
